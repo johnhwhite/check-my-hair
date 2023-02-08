@@ -6,7 +6,7 @@
   "scripts": {
     "start": "parcel index.html",
     "build:tsc": "tsc --outDir build/js",
-    "build": "rm -rf dist && mkdir dist && parcel build index.html --out-dir dist"
+    "build": "rm -rf dist && mkdir dist && parcel build index.html"
   },
   "eslintConfig": {
     "extends": "eslint-config-wesbos/typescript"
